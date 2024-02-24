@@ -1,5 +1,7 @@
 # Remove Duplicates from Array
 
+2024-12-16
+
 **What is the challenge?** For this challenge, we receive an array of integers and we have to ensure there are at most two replicas of every integer within the array. So if a number such as ‘1’ appears three times within the array, the third instance of the number will be removed from the array. If a number either does not appear at all, or if the number only appears once, it will remain unchanged.
 
 **My first attempt at solving this** involved looping through the array of numbers using a for each loop and checking if the count of each number was greater than two. I did this by defining a count variable and assigning it a value through the JavaScript filter method.
